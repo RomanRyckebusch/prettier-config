@@ -1,0 +1,33 @@
+{
+  "name": "@ro-ry/prettier-config",
+  "version": "1.0.0",
+  "description": "Shared Prettier configuration",
+  "author": {
+    "name": "Roman Ryckebusch",
+    "url": "https://github.com/RomanRyckebusch"
+  },
+  "repository": {
+    "url": "https://github.com/RomanRyckebusch/prettier-config/tree/main"
+  },
+  "license": "ISC",
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "main": "./src/config.json",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "files": [
+    "./src/config.json"
+  ],
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.6",
+    "prettier": "^3.6.2"
+  },
+  "peerDependencies": {
+    "prettier": "^3.6.2"
+  },
+  "packageManager": "pnpm@10.20.0"
+}
