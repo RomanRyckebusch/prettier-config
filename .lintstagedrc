@@ -1,0 +1,3 @@
+{
+  "*": "prettier --config ./src/config.json --write --ignore-unknown"
+}
